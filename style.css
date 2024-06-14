@@ -1,0 +1,26 @@
+/* BEM notation for ticker grid styles */
+.ticker-grid__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticker-grid__header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.ticker-grid__row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ticker-grid__cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Visual flare for updated cells */
+.ticker-grid__cell--highlighted {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}
